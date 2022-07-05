@@ -2,11 +2,12 @@
     margin:0;
     padding: 0;
 }
-@import'./secciones/index.scss';
-@import'./secciones/nosotros.scss';
-@import'./secciones/galeria.scss';
-@import'./secciones/classics.scss';
-@import'./secciones/conciertos.scss';
+@import './variables/vem.scss';
+@import './secciones/index';
+@import './secciones/classics';
+@import'./secciones/galeria';
+@import'./secciones/conciertos';
+@import'./secciones/nosotros';
 
 body {
     background-image: url('https://torange.biz/photofxnew/201/HD/background-triangles-geometrical-abstract-red-polygon-dollars-201840.jpg');

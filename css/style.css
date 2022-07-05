@@ -53,78 +53,6 @@
     color: yellow;
     background-color: #c25358; }
 
-.headern {
-  font-family: 'Bangers', cursive;
-  font-size: 36px;
-  display: inline-block;
-  text-align: center;
-  padding: 50px;
-  width: 800px;
-  color: whitesmoke;
-  transform: translate(500px); }
-  .headern:hover {
-    text-decoration: line-through;
-    cursor: pointer; }
-
-.contenedorn {
-  display: flex; }
-
-.articulo1 {
-  margin: 70px;
-  padding: 70px;
-  background-color: #3d3d3d;
-  border: solid 4px white;
-  border-radius: 20px;
-  max-width: 700px;
-  text-align: center;
-  color: whitesmoke;
-  font-family: 'Bangers', cursive;
-  font-size: 20px; }
-
-.articulo2 {
-  margin: 70px;
-  padding: 70px;
-  background-color: #3d3d3d;
-  border: solid 4px white;
-  border-radius: 20px;
-  max-width: 700px;
-  text-align: center;
-  color: whitesmoke;
-  font-family: 'Bangers', cursive;
-  font-size: 20px; }
-
-.h2galeria {
-  font-family: 'Bangers', cursive;
-  font-size: 40px;
-  display: inline-block;
-  text-align: center;
-  padding: 50px;
-  width: 800px;
-  color: whitesmoke;
-  transform: translate(500px); }
-  .h2galeria:hover {
-    cursor: pointer;
-    color: black;
-    text-decoration: line-through; }
-
-.contimggal {
-  display: flex;
-  transform: translate(300px); }
-
-.contimggal img {
-  width: 250px;
-  height: 250px;
-  margin: 20px;
-  padding: 5px; }
-  .contimggal img:hover {
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    box-shadow: 0px 0px 15px 15px white;
-    -webkit-box-shadow: 0px 0px 15px 15px white;
-    transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    cursor: pointer; }
-
 .bolsacontacto {
   width: 100%; }
 
@@ -169,6 +97,38 @@
 .psp {
   font-family: 'Bangers', cursive;
   font-weight: bolder; }
+
+.h2galeria {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+  width: 800px;
+  color: whitesmoke;
+  transform: translate(500px); }
+  .h2galeria:hover {
+    cursor: pointer;
+    color: black;
+    text-decoration: line-through; }
+
+.contimggal {
+  display: flex;
+  transform: translate(300px); }
+
+.contimggal img {
+  width: 250px;
+  height: 250px;
+  margin: 20px;
+  padding: 5px; }
+  .contimggal img:hover {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    box-shadow: 0px 0px 15px 15px white;
+    -webkit-box-shadow: 0px 0px 15px 15px white;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    cursor: pointer; }
 
 .contenedorgral {
   width: 100%;
@@ -247,6 +207,46 @@
   cursor: pointer; }
   .banner .boton:hover {
     background-color: red; }
+
+.headern {
+  font-family: 'Bangers', cursive;
+  font-size: 36px;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+  width: 800px;
+  color: whitesmoke;
+  transform: translate(500px); }
+  .headern:hover {
+    text-decoration: line-through;
+    cursor: pointer; }
+
+.contenedorn {
+  display: flex; }
+
+.articulo1 {
+  margin: 70px;
+  padding: 70px;
+  background-color: #3d3d3d;
+  border: solid 4px white;
+  border-radius: 20px;
+  max-width: 700px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Bangers', cursive;
+  font-size: 20px; }
+
+.articulo2 {
+  margin: 70px;
+  padding: 70px;
+  background-color: #3d3d3d;
+  border: solid 4px white;
+  border-radius: 20px;
+  max-width: 700px;
+  text-align: center;
+  color: whitesmoke;
+  font-family: 'Bangers', cursive;
+  font-size: 20px; }
 
 body {
   background-image: url("https://torange.biz/photofxnew/201/HD/background-triangles-geometrical-abstract-red-polygon-dollars-201840.jpg");
