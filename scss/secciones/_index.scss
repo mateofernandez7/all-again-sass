@@ -7,7 +7,7 @@
     width: 800px;
     @extend %whiteSmokecolor;
     transform: translate(500px);
-    &:hover{cursor: pointer;
+    &:hover{@extend %mousePointer;
         text-decoration: line-through;}
 }
 .artista {

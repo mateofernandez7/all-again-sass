@@ -64,7 +64,7 @@ footer {
 .logo {
     height: 80px;
     margin-bottom: 1rem;
-    &:hover{cursor: pointer;} 
+    &:hover{@extend %mousePointer;} 
 }
 .social-icons-container,
 .footer-menu-container {
@@ -103,7 +103,7 @@ footer {
 }
 .menu-item {
     margin: 1rem 1.5rem;
-    cursor: pointer;
+    @extend %mousePointer;
     opacity: 0.6;
     font-family: 'Bangers', cursive;
     &:hover{opacity: 1;}

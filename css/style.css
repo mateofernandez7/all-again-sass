@@ -5,6 +5,9 @@
 .headerrl, .artista, .bioartista, .label2, .h2galeria, .banner ul li, .headern, .articulo1, .articulo2, .ul a, .copyright {
   color: whitesmoke; }
 
+.headerrl:hover, .h2galeria:hover, .contimggal img:hover, .banner ul li:hover, .banner .boton, .headern:hover, .logo:hover, .menu-item {
+  cursor: pointer; }
+
 .headerrl {
   font-family: 'Bangers', cursive;
   font-size: 70px;
@@ -14,7 +17,6 @@
   width: 800px;
   transform: translate(500px); }
   .headerrl:hover {
-    cursor: pointer;
     text-decoration: line-through; }
 
 .artista {
@@ -106,7 +108,6 @@
   width: 800px;
   transform: translate(500px); }
   .h2galeria:hover {
-    cursor: pointer;
     color: black;
     text-decoration: line-through; }
 
@@ -125,8 +126,7 @@
     box-shadow: 0px 0px 15px 15px white;
     -webkit-box-shadow: 0px 0px 15px 15px white;
     transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    cursor: pointer; }
+    -webkit-transform: rotate(360deg); }
 
 .contenedorgral {
   width: 100%;
@@ -187,7 +187,6 @@
   margin: 15px;
   font-family: 'Bangers', cursive; }
   .banner ul li:hover {
-    cursor: pointer;
     transform: scale(1.3); }
 
 .banner .boton {
@@ -200,8 +199,7 @@
   padding: 10px;
   border: none;
   border-radius: 100px;
-  font-family: 'Roboto', sans-serif;
-  cursor: pointer; }
+  font-family: 'Roboto', sans-serif; }
   .banner .boton:hover {
     background-color: red; }
 
@@ -214,8 +212,7 @@
   width: 800px;
   transform: translate(500px); }
   .headern:hover {
-    text-decoration: line-through;
-    cursor: pointer; }
+    text-decoration: line-through; }
 
 .contenedorn {
   display: flex; }
@@ -295,8 +292,6 @@ footer {
 .logo {
   height: 80px;
   margin-bottom: 1rem; }
-  .logo:hover {
-    cursor: pointer; }
 
 .social-icons-container,
 .footer-menu-container {
@@ -334,7 +329,6 @@ footer {
 
 .menu-item {
   margin: 1rem 1.5rem;
-  cursor: pointer;
   opacity: 0.6;
   font-family: 'Bangers', cursive; }
   .menu-item:hover {

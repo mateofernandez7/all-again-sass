@@ -8,7 +8,7 @@
     @extend %whiteSmokecolor;
     transform: translate(500px);
     &:hover{text-decoration: line-through;
-        cursor: pointer;}
+        @extend %mousePointer;}
 
 }
 .contenedorn {
