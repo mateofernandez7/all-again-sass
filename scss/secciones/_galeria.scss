@@ -8,6 +8,7 @@
   @extend %whiteSmokecolor;
     transform: translate(500px);
     &:hover{@extend %mousePointer;
+        @include frsfgdegrfh();
         color: black;
         text-decoration: line-through;}
 }

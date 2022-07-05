@@ -28,7 +28,9 @@
   text-shadow: 10px yellow; }
   .artista:hover {
     text-decoration: line-through;
-    color: yellow; }
+    color: yellow;
+    transform: scale(1.1);
+    transition: 1s; }
 
 .contenedorimg {
   display: flex;
@@ -108,6 +110,8 @@
   width: 800px;
   transform: translate(500px); }
   .h2galeria:hover {
+    transform: scale(1.1);
+    transition: 1s;
     color: black;
     text-decoration: line-through; }
 

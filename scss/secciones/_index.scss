@@ -19,7 +19,8 @@
     text-align: center;
     text-shadow: 10px yellow;
     &:hover{text-decoration: line-through;
-        color: yellow;}
+        color: yellow;
+        @include frsfgdegrfh();}
 }
 .contenedorimg {
     display: flex;
