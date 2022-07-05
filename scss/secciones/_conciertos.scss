@@ -55,7 +55,7 @@
 }
 .banner ul li {
     margin: 15px;
-    color: whitesmoke;
+   @extend %whiteSmokecolor;
     font-family: 'Bangers', cursive;
     &:hover{cursor: pointer;
         transform: scale(1.3);}

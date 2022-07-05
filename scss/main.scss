@@ -2,7 +2,7 @@
     margin:0;
     padding: 0;
 }
-@import './variables/vem.scss';
+@import './variables/vem';
 @import './secciones/index';
 @import './secciones/classics';
 @import'./secciones/galeria';
@@ -15,6 +15,7 @@ body {
     /* background-image:url('https://p4.wallpaperbetter.com/wallpaper/568/486/574/singers-xxxtentacion-wallpaper-preview.jpg'); */
     /* background-image: url('https://t3.ftcdn.net/jpg/04/87/78/10/360_F_487781018_t38p12Uw2cKx2caLRFxEliUDhjPOhy68.jpg'); */
     background-size: cover;
+    background-position: center center;
     max-width: 1791px;
     overflow-x: hidden;
 
@@ -47,7 +48,7 @@ body {
     background-color: dimgrey;
     text-decoration: none;
     font-family: 'Bangers', cursive;
-    color: whitesmoke;
+   @extend %whiteSmokecolor;
     &:hover{background-color: rgb(44, 44, 44);}
 }
 footer {
@@ -108,7 +109,7 @@ footer {
     &:hover{opacity: 1;}
 }
 .copyright {
-    color: white;
+    @extend %whiteSmokecolor;
     font-family: 'Bangers', cursive;
     text-align: center;}
     @media screen and (max-width: 1200px) {

@@ -5,7 +5,7 @@
     text-align: center;
     padding: 50px;
     width: 800px;
-    color: whitesmoke;
+    @extend %whiteSmokecolor;
     transform: translate(500px);
     &:hover{text-decoration: line-through;
         cursor: pointer;}
@@ -22,7 +22,7 @@
     border-radius: 20px;
     max-width: 700px;
     text-align: center;
-    color: whitesmoke;
+    @extend %whiteSmokecolor;
     font-family: 'Bangers', cursive;
     font-size: 20px;
 }
@@ -34,6 +34,6 @@
     border-radius: 20px;
     max-width: 700px;
     text-align: center;
-    color: whitesmoke;
+   @extend %whiteSmokecolor;
     font-family: 'Bangers', cursive;
     font-size: 20px;}
