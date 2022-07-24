@@ -25,3 +25,6 @@
     b. npm run watch-css
 
 //FIN
+BACKGROUNDS POR SI SE ROMPE EL ACTUAL
+/* background-image:url('https://p4.wallpaperbetter.com/wallpaper/568/486/574/singers-xxxtentacion-wallpaper-preview.jpg'); */
+    /* background-image: url('https://t3.ftcdn.net/jpg/04/87/78/10/360_F_487781018_t38p12Uw2cKx2caLRFxEliUDhjPOhy68.jpg'); */

@@ -2,15 +2,15 @@
   margin: 0;
   padding: 0; }
 
-.headerrl, .artista, .bioartista, .label2, .h2galeria, .banner ul li, .headern, .articulo1, .articulo2, .ul a, .copyright {
+.headerrl, .artista, .bioartista, .h2contacto, .label2, .h2galeria, .banner ul li, .headern, .articulo1, .articulo2, .ul a, .copyright {
   color: whitesmoke; }
 
-.headerrl:hover, .h2galeria:hover, .contimggal img:hover, .banner ul li:hover, .banner .boton, .headern:hover, .logo:hover, .menu-item {
+.headerrl:hover, .h2contacto:hover, .h2galeria:hover, .contimggal img:hover, .banner ul li:hover, .banner .boton, .headern:hover, .logo:hover, .menu-item {
   cursor: pointer; }
 
 .headerrl {
   font-family: 'Bangers', cursive;
-  font-size: 70px;
+  font-size: 50px;
   display: inline-block;
   text-align: center;
   padding: 50px;
@@ -56,6 +56,18 @@
   .bioartista:hover {
     color: yellow;
     background-color: #c25358; }
+
+.h2contacto {
+  font-family: 'Bangers', cursive;
+  font-size: 40px;
+  display: inline-block;
+  text-align: center;
+  padding: 50px;
+  width: 800px;
+  transform: translate(200px); }
+  .h2contacto:hover {
+    color: black;
+    text-decoration: line-through; }
 
 .bolsacontacto {
   width: 100%; }
@@ -245,9 +257,6 @@
 
 body {
   background-image: url("https://torange.biz/photofxnew/201/HD/background-triangles-geometrical-abstract-red-polygon-dollars-201840.jpg");
-  /*-----------BACKGROUNDS DE RESRVA POR SI SE ROMPE EL URL--------  */
-  /* background-image:url('https://p4.wallpaperbetter.com/wallpaper/568/486/574/singers-xxxtentacion-wallpaper-preview.jpg'); */
-  /* background-image: url('https://t3.ftcdn.net/jpg/04/87/78/10/360_F_487781018_t38p12Uw2cKx2caLRFxEliUDhjPOhy68.jpg'); */
   background-size: cover;
   background-position: center center;
   max-width: 1791px;
@@ -343,6 +352,29 @@ footer {
   text-align: center; }
 
 @media screen and (max-width: 1200px) {
+  .nav {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; }
+  .imglogo {
+    height: 150px;
+    width: 150px; }
+    .imglogo:hover {
+      transform: rotateZ(360deg);
+      transition: 3s; }
+  .ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none; }
+  .ul a {
+    padding: 10px;
+    background-color: dimgrey;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    color: whitesmoke; }
+    .ul a:hover {
+      background-color: #2c2c2c; }
   /* INDEX */
   .headerrl {
     font-size: 40px;
@@ -369,11 +401,34 @@ footer {
     transform: translate(210px);
     display: flex;
     flex-wrap: wrap; }
+  .h2contacto {
+    display: none; }
   /* conciertos-ya tiene */ }
 
 @media screen and (max-width: 800px) {
   .nav {
-    display: none; }
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px; }
+  .imglogo {
+    height: 150px;
+    width: 150px; }
+    .imglogo:hover {
+      transform: rotateZ(360deg);
+      transition: 3s; }
+  .ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none; }
+  .ul a {
+    padding: 10px;
+    background-color: dimgrey;
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    color: whitesmoke; }
+    .ul a:hover {
+      background-color: #2c2c2c; }
   /* INDEX */
   .headerrl {
     font-size: 30px;
@@ -399,11 +454,23 @@ footer {
     flex-wrap: wrap; }
   /* CONTACTO */
   .mainform {
-    transform: translate(0px);
+    transform: translate(-20px);
     display: flex;
     flex-wrap: wrap; }
   .form {
     margin: 30px;
     height: 350px;
     width: 310px; }
+  .h2contacto {
+    font-family: 'Bangers', cursive;
+    font-size: 40px;
+    display: inline-block;
+    text-align: start;
+    padding: 50px;
+    color: whitesmoke;
+    transform: translate(100px); }
+    .h2contacto:hover {
+      cursor: pointer;
+      color: black;
+      text-decoration: line-through; }
   /* conciertos-ya tiene */ }
